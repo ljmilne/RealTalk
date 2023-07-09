@@ -30,6 +30,7 @@ onValue(messagesInDB, function(snapshot) {
         messageEl.innerHTML = ""
         fromEl.innerHTML = ""
         toEl.innerHTML= ""
+        messageOutputEl.innerHTML = ""
         for (let i = 0; i < itemsArray.length; i++) {
             let currentItem = itemsArray[i]
             let currentItemID = currentItem[0]
