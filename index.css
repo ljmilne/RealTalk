@@ -7,6 +7,18 @@ html, body {
     user-select: none;
 }
 
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: 30px auto;
+}
+
+img{
+    width: 150px;
+    margin: 0 auto;
+}
+
 h1, h2{
     color: white;
 }
@@ -33,11 +45,6 @@ button{
 
 button:hover{
     color: whitesmoke;
-}
-
-img{
-    width: 150px;
-    margin: 0 auto;
 }
 
 input {
@@ -69,13 +76,6 @@ li{
 #message-output{
     display: flex;
     flex-wrap: wrap-reverse;
-}
-
-.container{
-    display: flex;
-    flex-direction: column;
-    max-width: 320px;
-    margin: 30px auto;
 }
 
 #credentials{
