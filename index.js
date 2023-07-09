@@ -43,8 +43,12 @@ onValue(messagesInDB, function(snapshot) {
 })
 
 function appendToMessages(item) {
+    let itemID = item[0]
+    let itemValue = item[1]
+    
     let newEl = document.createElement("li")
     newEl.innerHTML = itemValue
+    console.log(itemValue)
     messageOutputEl.append(newEl)
 }
 
