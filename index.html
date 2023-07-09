@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <title>RealTalk</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Josefin+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+
+    </head>
+    <body>
+        <div class="container">
+            <div><img src="assets/logo.png"></div>
+            <div><h1>RealTalk</h1></div>
+            <div><textarea class="input" id="message-el" placeholder="Enter your message..."></textarea></div>
+                <div id="credentials">
+                    <div><input type="text" placeholder="From..." id="from-el"></div>
+                    <div><input type="text" placeholder="To..." id="to-el"></div>
+                </div>
+            <div><button id="publish-el">Publish</button></div>
+            <div><h2>- Messages -</h2></div>
+                <ul>
+                     <div id="message-output"></div>
+                </ul>
+
+        </div>
+        <script src="index.js" type="module"></script>
+    </body>
+</html>

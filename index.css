@@ -1,0 +1,88 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #1B1924;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    user-select: none;
+}
+
+h1, h2{
+    color: white;
+}
+
+textarea, input{
+    background: #444059;
+    color: whitesmoke;
+    font-family: 'Inter', sans-serif;
+    width: 320px;
+    height: 118px;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+button{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 800;
+    color: #04131C;
+    background: #28A9F1;
+    border-radius: 8px;
+    width: 320px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+button:hover{
+    color: whitesmoke;
+}
+
+img{
+    width: 150px;
+}
+
+input{
+    text-align: center;
+    width: 152.852px;
+    height: 40px;
+    flex-shrink: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    color: whitesmoke;
+}
+
+li{
+    font-family: 'Inter', sans-serif;
+    width: 320px;
+    color: #1B1924;
+    list-style-type: none;
+    background: white;
+    text-align: left;
+    padding: 10px;
+    border: none;
+    margin-bottom: 6px;
+    border-radius: 8px;
+}
+#message-output{
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: 0px auto;
+}
+
+#credentials{
+    display:flex;
+    flex-direction: row;
+    gap: 10px;
+}
