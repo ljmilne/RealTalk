@@ -26,7 +26,10 @@ buttonEl.addEventListener("click", function(){
 onValue(messagesInDB, function(snapshot) {
     if (snapshot.exists()) {
         let itemsArray = Object.entries(snapshot.val())
-    
+        
+        messageEl.innerHTML = ""
+        fromEl.innerHTML = ""
+        toEl.innerHTML= ""
         for (let i = 0; i < itemsArray.length; i++) {
             let currentItem = itemsArray[i]
             let currentItemID = currentItem[0]
