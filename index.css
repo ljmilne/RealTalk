@@ -15,7 +15,6 @@ textarea, input{
     background: #444059;
     color: whitesmoke;
     font-family: 'Inter', sans-serif;
-    width: 320px;
     height: 118px;
     border-radius: 8px;
     border: none;
@@ -28,7 +27,6 @@ button{
     color: #04131C;
     background: #28A9F1;
     border-radius: 8px;
-    width: 320px;
     padding: 10px;
     margin-bottom: 20px;
 }
@@ -42,11 +40,9 @@ img{
     margin: 0 auto;
 }
 
-input{
-    text-align: center;
-    width: 152.852px;
-    margin: 0 auto;
+input {
     height: 40px;
+    width: 50%;
 }
 
 ul {
