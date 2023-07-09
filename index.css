@@ -39,13 +39,14 @@ button:hover{
 
 img{
     width: 150px;
+    margin: 0 auto;
 }
 
 input{
     text-align: center;
     width: 152.852px;
+    margin: 0 auto;
     height: 40px;
-    flex-shrink: 0;
 }
 
 ul {
@@ -78,11 +79,11 @@ li{
     display: flex;
     flex-direction: column;
     max-width: 320px;
-    margin: 0px auto;
+    margin: 30px auto;
 }
 
 #credentials{
     display:flex;
-    flex-direction: row;
     gap: 10px;
+    margin-bottom: 10px;
 }
